@@ -1,0 +1,47 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b5999;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#todo-form {
+    display: flex;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+li {
+    width: 150px;
+    height: 150px;
+    flex: 1 1 50%;
+    max-width: 50%;
+    list-style: none;
+    background-color: pink;
+    padding: 15px;
+}
+th,tr,td {
+    border: 1px solid pink;
+}
+td {
+    width: 100px;
+}
